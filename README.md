@@ -5,19 +5,37 @@
 > *The police files indicate that “Smith” is an alias for Simpson.*  
 > &mdash; [dictionary.com](https://www.dictionary.com/browse/alias)  
 
-Alias is an Elder Scrolls Online addon which allows you to create and save console commands which are aliases to other console commands.
+---
+
+Alias is an Elder Scrolls Online addon which allows you to create and save console commands which are aliases to other console commands, a simple idea with meaningful implications.
 
 Alias can be used to:
 - Shorten commonly used commands: `/alias add rui reloadui`
 - Save commonly used command parameters: `/alias add ls loot show`
-- Create entirely new commands: `/alias add clear script CHAT_SYSTEM.primaryContainer.currentBuffer:Clear()`
+- Create entirely new commands: `/alias add test script d("Success!")`
+- Alias client commands, commands added by other addons, even non-existent commands.
+- Register and unregister game events.
+ 
 
-Features:
+Alias cannot be used to:
+- Automatically send chat messages - *this is a limitation imposed by the game client*.
+ 
+
+## Features:
 - Aliases are saved account-wide, making them available to all characters.
 - Aliases are restored each time you play.
-- Aliases can be set to automatically execute on player load, allowing for persistent changes using script commands.
+- Aliases can be set to automatically execute on player load.
+ 
 
-Alias is accessed via the chat console by typing `/alias`.
+## Links:
+- [Alias on Github](https://github.com/jeremy-rm/Alias) - Script source and examples are provided here.
+- [Latest Release](https://github.com/jeremy-rm/Alias/releases/latest) - Direct link to the latest released version.
+ 
+
+## Installation:
+1. Download the latest release using the link above.
+2. Place the contents of the newly downloaded archive into your ESO Addons folder.
+3. Delete any previous versions of Alias from your ESO Addons folder.
 
 ---
 
