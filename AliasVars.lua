@@ -9,7 +9,7 @@ Alias = Alias or {}
 --
 Alias.Name = "Alias"
 Alias.Author = "jeremy.rm"
-Alias.Version = "1.3.0"
+Alias.Version = "1.3.1"
 
 --
 -- General help and detailed subcommand command usage info.

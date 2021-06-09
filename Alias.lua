@@ -220,6 +220,7 @@ end
 --
 local function OnEventPlayerActivated()
 	Alias.Log(0, string.upper(Alias.Name) .. " v" .. Alias.Version	.. " by " .. string.upper(Alias.Author) .. " |cFFFFFFREADY|r")
+	Alias.Log(0, "Try |cFFFFFF/alias help|r for assistance!")
 	for key,value in pairs(SaveData.Aliases) do
 		if value.AutoExec == true then
 			Alias.Log(0, "- autoexec: |cFFFFFF/" .. key .. "|r")
