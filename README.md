@@ -33,9 +33,9 @@ Alias can *not* be used to:
  
 
 ## Installation
-1. Download the latest release using the link above.
-2. Place the contents of the newly downloaded archive into your ESO Addons folder.
-3. Delete any previous versions of Alias from your ESO Addons folder.
+1. Delete any previous copies of Alias from your ESO AddOns folder.
+2. Download the [latest release](https://github.com/jeremy-rm/Alias/releases/latest) and extract the contents into your ESO AddOns folder.
+3. If the folder is named *Alias-vX.X.X*, rename it to *Alias*.
 
 ## Examples
 A list of example aliases is available in the [Alias Wiki](https://github.com/jeremy-rm/Alias/wiki).
