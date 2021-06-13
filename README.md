@@ -5,8 +5,6 @@
 > *The police files indicate that “Smith” is an alias for Simpson.*  
 > &mdash; [dictionary.com](https://www.dictionary.com/browse/alias)  
 
----
-
 Alias is an Elder Scrolls Online addon which allows you to create and save console commands which are aliases to other console commands, a simple idea with meaningful implications.
 
 Alias can be used to:
